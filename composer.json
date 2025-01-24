@@ -1,20 +1,24 @@
 {
-    "name": "superhuit/wp-graphql-redirection",
+    "name": "patronage/wp-graphql-redirection",
     "description": "Exposes Redirection WP plugin in the WP-GraphQL schema",
     "type": "wordpress-plugin",
-    "keywords": ["wordpress","graphql","redirection"],
+    "keywords": [
+        "wordpress",
+        "graphql",
+        "redirection"
+    ],
     "license": "GPL-3.0-or-later",
-    "homepage": "https://github.com/superhuit-agency/wp-graphql-redirection",
+    "homepage": "https://github.com/patronage/wp-graphql-redirection",
     "authors": [
         {
-            "name": "superhuit",
-            "email": "tech@superhuit.ch",
-            "homepage": "https://superhuit.ch",
+            "name": "patronage",
+            "email": "tech@patronage.org",
+            "homepage": "https://patronage.org",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/superhuit-agency/wp-graphql-redirection/issues"
+        "issues": "https://github.com/patronage/wp-graphql-redirection/issues"
     },
     "autoload": {
         "psr-4": {
@@ -24,10 +28,10 @@
             "include/"
         ]
     },
-    "repositories":[
+    "repositories": [
         {
-            "type":"composer",
-            "url":"https://wpackagist.org",
+            "type": "composer",
+            "url": "https://wpackagist.org",
             "only": [
                 "wpackagist-plugin/*",
                 "wpackagist-theme/*"
