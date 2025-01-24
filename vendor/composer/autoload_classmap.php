@@ -11,4 +11,5 @@ return array(
     'WPGraphQLRedirection\\Model\\RedirectionItem' => $baseDir . '/include/Model/RedirectionItem.php',
     'WPGraphQLRedirection\\Type\\ObjectType\\RedirectionItem' => $baseDir . '/include/Type/ObjectType/RedirectionItem.php',
     'WPGraphQL\\Type\\InterfaceType\\NodeWithIsRedirected' => $baseDir . '/include/Type/InterfaceType/NodeWithIsRedirect.php',
+    'WPGraphQL\\Type\\InterfaceType\\NodeWithRedirect' => $baseDir . '/include/Type/InterfaceType/NodeWithRedirect.php',
 );

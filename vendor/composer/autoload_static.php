@@ -26,6 +26,7 @@ class ComposerStaticInita7bf0d245e4dde81f1cebd94de74dbcf
         'WPGraphQLRedirection\\Model\\RedirectionItem' => __DIR__ . '/../..' . '/include/Model/RedirectionItem.php',
         'WPGraphQLRedirection\\Type\\ObjectType\\RedirectionItem' => __DIR__ . '/../..' . '/include/Type/ObjectType/RedirectionItem.php',
         'WPGraphQL\\Type\\InterfaceType\\NodeWithIsRedirected' => __DIR__ . '/../..' . '/include/Type/InterfaceType/NodeWithIsRedirect.php',
+        'WPGraphQL\\Type\\InterfaceType\\NodeWithRedirect' => __DIR__ . '/../..' . '/include/Type/InterfaceType/NodeWithRedirect.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
